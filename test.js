@@ -13,7 +13,7 @@ export function test (element){
             } else{
                 history.push(msg)
                 msglist.appendChild(li)
-        //element.querySelector('#msg').value = "" //tömmer msg fältet efter skickat meddelande
+        element.querySelector('#msg').value = "" //tömmer msg fältet efter skickat meddelande
             if(document.getElementById("msglist").children.length > 10){
                 msglist.removeChild(li)
                 console.log("Grabben, du har för många meddelanden så jag tar bort det äldsta")

@@ -7,4 +7,4 @@ document.querySelector('#app').innerHTML = `
 <button id="send">Send</button>
 `
 test(document.querySelector(`#app`))
-//setupCounter(document.querySelector('#counter'))
+  
